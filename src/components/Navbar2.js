@@ -31,9 +31,9 @@ function NavBar2() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link
-                  className={`nav-link ${activeLink === "/" ? "active" : ""}`}
+                  className={`nav-link ${activeLink === "/home" ? "active" : ""}`}
                   // onClick={() => handleNavLinkClick("/")}
-                  to="/"
+                  to="/home"
                 >
                   Home
                 </Link>
